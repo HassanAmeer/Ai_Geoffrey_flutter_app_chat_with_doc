@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Ask Geoffery</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Ask Geoffery</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.26</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Ask Geoffery Requires Library access to store generated images on users device</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Ask Geoffery Requires Speech access so that user can input data using his voice</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Ask Geoffery Requires Microphone access so that user can input data using his voice</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Ask Geoffery Requires Camera access so that user can input data using his photo</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Ask Geoffery Requires location access so that user can share his location in app for better results</string>
+	<key>CFBundleVersion</key>
+	<string>38</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>OneSignal_suppress_launch_urls</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+</dict>
+</plist>
